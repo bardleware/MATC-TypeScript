@@ -1,0 +1,16 @@
+{
+  "name": "typescript-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "acme-bank.js",
+  "scripts": {
+    "start": "electron acme-bank.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "none",
+  "dependencies": {
+    "electron": "^1.6.8",
+    "typescript": "^2.3.2"
+  }
+}
