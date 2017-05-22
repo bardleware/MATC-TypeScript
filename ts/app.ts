@@ -11,7 +11,7 @@ class CreateAccount implements Account {
   accountHistory: Transaction[];
   transactionOrigin: TransactionOrigin;
 
-  constructor(name: string, balance: number, birthdate: Date, accountType: AccountType) {
+  constructor(name: string, birthdate: Date, accountType: AccountType) {
     this.transactionOrigin = 0;
     this.accountHolderName = name;
     this.accountHolderBirthDate = birthdate;
